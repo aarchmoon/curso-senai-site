@@ -1,0 +1,98 @@
+html, body{
+    height: 100%;
+}
+
+/*cabeçalho*/
+.navbar-brand img{
+    width: 70px;
+    height: 70px;
+}
+
+.nav-link{
+    font-size: 20px;
+}
+
+/*Conteudo principal*/
+
+main{
+    min-height: 500px;
+}
+
+/*banner*/
+.carousel-item img{
+    height: 700px;
+}
+/*Produtos vendidos*/
+#section-vendidos{
+    text-align: center;
+}
+
+#section-vendidos h2{
+    font-weight: bold;
+    padding: 20px;
+}
+
+#section-vendidos .card{
+    margin: 5px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+#section-vendidos .card-img-top{
+    height: 500px;
+    border-radius: 9px 9px 0 0;
+}
+
+#section-vendidos .card-text{
+    font-size: 20px;
+}
+
+#section-vendidos .card-price{
+    color: #ff0000;
+    font-weight: bold;    
+    font-size: 21px;
+    /* S - W - S - F*/
+}
+
+/*Rodapé*/
+footer{
+    text-align: center;
+}
+
+footer p{
+    font-size: 20px;
+    padding: 10px;
+}
+
+#login-footer{
+    text-align: center;
+    margin-top: 10%;
+}
+
+/*Botão Voltar topo*/
+#voltar-topo{
+    position: fixed;
+    right: 50px;
+    bottom: 2px;
+}
+
+/* página de login  */
+
+#section-login{
+    margin-top: 200px;
+}
+
+#section-login, #section-cadastro{
+    text-align: center;
+}
+
+#section-login input{
+    width: 100%;
+}
+
+/* Formulário de cadastro*/
+
+#form-cadastrar{
+    display: none;
+    margin-top: 200px;
+}
